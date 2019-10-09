@@ -1,0 +1,25 @@
+{
+  "name": "heroku-freenom-pages",
+  "version": "1.0.0",
+  "description": "A Github Action which automatically posts an app to a backend, makes a Freenom free domain for it, deploys to gh-pages and points the domain to the backend and gh-pages.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "heroku-client": "^3.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sesamestrong/heroku-freenom-pages.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sesamestrong/heroku-freenom-pages/issues"
+  },
+  "homepage": "https://github.com/sesamestrong/heroku-freenom-pages#readme"
+}
